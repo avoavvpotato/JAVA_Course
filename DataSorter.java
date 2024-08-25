@@ -40,7 +40,7 @@ public class DataSorter {
         }
 
         if (files.isEmpty()) {
-            System.out.println("Usage: java DataSorter -<flag1> -<flag2> ... <file1> <file2> ...");
+            System.out.println("Usage: java -jar DataSorter.jar -<flag1> -<flag2> ... <file1> <file2> ...");
             return;
         }
 
